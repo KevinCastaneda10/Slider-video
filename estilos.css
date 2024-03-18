@@ -143,7 +143,7 @@ section .container .content .bannerText div p {
   margin: 20px 0;
   background: #19191975;
   border-radius: 10px;
-  height: 100px;
+  height: auto;
   width: 107%;
   align-items: center;
   justify-content: center;
@@ -261,6 +261,13 @@ section .container .controls li:hover {
   section .container .content .bannerText div h2 {
     font-size: 3em;
   }
+
+  /* section .container .content .bannerText div p {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+  } */
 
   section .container .controls li {
     width: 60px;
